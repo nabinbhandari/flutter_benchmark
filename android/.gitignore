@@ -8,3 +8,6 @@
 /build
 /captures
 GeneratedPluginRegistrant.java
+/.idea/caches
+/app/build
+/app/.externalNativeBuild

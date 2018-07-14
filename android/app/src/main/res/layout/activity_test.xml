@@ -9,8 +9,14 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onClickTest"
+        android:onClick="onClickJava"
         android:text="Java" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickC"
+        android:text="C" />
 
     <Button
         android:layout_width="wrap_content"

@@ -38,7 +38,7 @@ class MyPage extends StatelessWidget {
                   int elapsed =
                       new DateTime.now().millisecondsSinceEpoch - startTime;
 
-                  String text = "${n}th prime number: $result \ntime: $elapsed";
+                  String text = "Flutter - ${n}th prime number: $result \ntime: $elapsed ms";
                   print(text);
                   key.currentState.showSnackBar(SnackBar(content: Text(text)));
                 },
